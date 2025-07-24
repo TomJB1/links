@@ -6,19 +6,13 @@ body {
 }
 
 #cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(10em,30em));
-    grid-gap: 1em;
-    justify-items: center;
-
+    columns: 15em;
 
     &>div {
 	background: black;
 	color: white;
-	width: 80%;
-	padding: 1em;
-	box-shadow: 1em 1em white;
-	margin: 1.2em;
+	padding: 0.3em;
+	margin: 0 0 1.2em 0;
     }
 
     & a {
@@ -35,6 +29,10 @@ body {
 
     & h2 {
 	color: deeppink;
+	box-shadow: 0.1em 0.3em deeppink;
+	background: white;
+	margin: 0.2em 0.4em 0.2em 0.2em;
+	padding: 0.2em;
     }
     
     & h3 {
@@ -44,7 +42,7 @@ body {
 }
 
 .classified-ads{
-  background-color: deeppink;
+  background-color: darkmagenta;
 }
 .cw {
   color: red;
