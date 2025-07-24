@@ -1,0 +1,51 @@
+body {
+    background: pink;
+    font-family: system-ui;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10em,30em));
+    grid-gap: 1em;
+    justify-items: center;
+
+
+    &>div {
+	background: black;
+	color: white;
+	width: 80%;
+	padding: 1em;
+	box-shadow: 1em 1em white;
+	margin: 1.2em;
+    }
+
+    & a {
+	color: lightblue;
+	&:visited {
+	    color: slateblue;
+	}
+    }
+
+    & p {
+	margin: 0.1em;
+    }
+
+
+    & h2 {
+	color: deeppink;
+    }
+    
+    & h3 {
+	font-size: 1em;
+	margin-bottom: 0px;
+    }
+}
+
+.classified-ads{
+  background-color: deeppink;
+}
+.cw {
+  color: red;
+}
