@@ -1,0 +1,52 @@
+[
+    {
+	"category": "Software and tools",
+	"links": [
+	    {
+		"name": "Alpine Linux",
+		"link": "https://www.alpinelinux.org/",
+		"description": "A lightweight Linux distrobution"
+	    },
+	    {
+		"name": "Dither it!",
+		"link": "https://ditherit.com/",
+		"description": "Make dithered images that both look cool and are smaller files."
+	    },
+	    {
+		"name": "Git",
+		"link": "https://git-scm.com/",
+		"description": "The best version control. Never program without it."
+	    },
+	    {
+		"name": "iSH",
+		"link": "https://github.com/ish-app/ish",
+		"description": "Run a Linux shell on iOS."
+	    },
+	    {
+		"name": "RsS iS dEaD LOL",
+		"link": "https://rss-is-dead.lol/",
+		"description": "Prove that RSS is not dead by finding feeds of your fediverse friends."
+	    },
+	    {
+		"name": "X-Cancel",
+		"link": "https://xcancel.com",
+		"description": "Alternative X/Twitter frontend."
+	    }
+	]
+    },
+    {
+	"category": "Guides",
+	"links": [
+	    {
+		"name": "HTML for People",
+		"link": "https://htmlforpeople.com/",
+		"description": "HTML is for everyone."
+	    },
+	    {
+		"name": "The Odin Project",
+		"link": "https://www.theodinproject.com/",
+		"description": "Free web development course."
+	    }
+	]
+    }
+]

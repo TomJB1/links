@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+	<title>Pink pages (Tom Brandis)</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="style.css" media="">
+    </head>
+    <body>
+	<h1>Pink pages</h1>
+	<p>Links curated by <a href="https://tombrandis.uk">Tom Brandis</a>. Inspired by yellow pages.</p>
+	<div id="cards">
+	  {% for category in links %}
+	  <div>
+	    <h2>{{category.category}}</h2>
+	    {% for link in category.links | sort "name" %}
+	    <h3><a href="{{link.link}}">{{link.name}}</a>{% if link.cw %}<span class="cw"> ({{link.cw}}){% endif %}</h3>
+	    <p>{{link.description}}</p>
+	    {% endfor%}
+	  </div>
+	  {% endfor  %}
+	</div>
+    </body>
+</html>
