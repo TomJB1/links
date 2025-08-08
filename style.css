@@ -13,6 +13,7 @@ body {
 	color: white;
 	padding: 0.3em;
 	margin: 0 0 1.2em 0;
+	break-inside: avoid;
     }
 
     & a {
