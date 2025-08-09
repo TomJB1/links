@@ -15,7 +15,7 @@
 	    {% assign sorted_links = category.links | sort_natural:"name" %}
 	    {% for link in sorted_links %}
 	    <h3><a href="{{link.link}}">{% if link.pre %}{{link.pre}} {% endif  %}{{link.name}}</a>{% if link.cw %}<span class="cw"> ({{link.cw}}){% endif %}</h3>
-	    {% if link.description  %}<p>{{link.description}}</p>{% endif %}
+	    {% if link.desc  %}<p>{{link.desc}}</p>{% endif %}
 	    {% endfor%}
 	  </div>
 	  {% endfor  %}
