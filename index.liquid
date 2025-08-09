@@ -12,10 +12,10 @@
 	  {% for category in links %}
 	  <div>
 	    <h2>{{category.category}}</h2>
-	    <h3><a href="{{link.link}}">{{link.name}}</a>{% if link.cw %}<span class="cw"> ({{link.cw}}){% endif %}</h3>
 	    <p>{{link.description}}</p>
 	    {% assign sorted_links = category.links | sort_natural:"name" %}
 	    {% for link in sorted_links %}
+	    <h3><a href="{{link.link}}">{% if link.pre %}{{link.pre}} {% endif  %}{{link.name}}</a>{% if link.cw %}<span class="cw"> ({{link.cw}}){% endif %}</h3>
 	    {% endfor%}
 	  </div>
 	  {% endfor  %}
