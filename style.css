@@ -34,6 +34,12 @@ body {
 	background: white;
 	margin: 0.2em 0.4em 0.2em 0.2em;
 	padding: 0.2em;
+	transition: box-shadow .2s;
+
+	&:hover
+	{
+	    box-shadow: 0.3em 0.35em deeppink;
+	}
     }
     
     & h3 {
